@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact details</title>
+</head>
+
+<body>
+  <h1>My contact details</h1>
+  <p>my fictionnal address</p>
+  <p>my phone number</p>
+  <p>my email</p>
+  <form class="contactform" action="mailto:bruno.f.vaillant@gmail.com?subject=feedback" method="post" enctype="text/plain">
+    <label>What's your name</label>
+    <input type="text" name="your_name" value="What's your name">
+    <br>
+    <label for="email_address">What's your email address?</label>
+    <br>
+    <input type="email" name="email_address" id="email_address" value="type your email here">
+    <br>
+    <label for="question">What's your question?</label>
+    <br>
+    <textarea name="question" rows="8" cols="50"></textarea>
+    <br>
+    <label for="fav_color"> What's your favorite color? </label>
+    <input type="color" name="fav_color" id="fav_color" value="What's your favorite color">
+    <br>
+    <label for="password">What's your password</label>
+    <input type="password" name="password" id="password" value="What's your password?">
+    <br>
+    <input type="submit" name="submit" value="submit">
+  </form>
+</body>
+
+</html>
